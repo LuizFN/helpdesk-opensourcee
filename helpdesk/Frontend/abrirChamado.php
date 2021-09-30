@@ -15,15 +15,13 @@
             background-color: white;
             border-radius: 15px;
             padding: 20px;
-            width: 850px;
-            height: 650px;
+            width: 700px;
+            height: 560px;
             margin-top: 180px;
-            margin-left: 500px;
+            margin-left: 425px;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
         }
-        #df1 {
-            display: inline-block;
-        }
+
         select {
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
         }
@@ -39,7 +37,7 @@
     <div class="row justify-content-center align-items-center" id="dpc">
         <form action="Backend/validar_login.php" method="POST">
         <h2>Abrir Novo Chamado</h2>
-        <div class="row">
+    <div class="row">
         <div class="col">
             <div class="form-group">
                 <label for="tipodemanda">Selrcione o Tipo de Demanda</label>
@@ -49,6 +47,8 @@
                     <option>3</option>
                 </select>
             </div>
+        </div> <!--col1-->
+        <div class="col">
             <div class="form-group">
                 <label for="repsenha">Selecione a Categoria:</label>
                 <select class="form-control" id="catg" name="cat">
@@ -57,33 +57,36 @@
                     <option>3</option>
                 </select>
             </div>
-        </did>
-        <div class="col">
-            <div class="form-group">
-                <label for="repsenha">Selecione a SubCategoria:</label>
-                <select class="form-control" id="scatg" name="scat">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="repsenha">Selecione o item:</label>
-                <select class="form-control" id="items" name="item">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                </select>
-            </div>
-        </div>
-    </div>
+        </div> <!--col2-->
+        </div> <!--row 1-->
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="repsenha">Selecione a SubCategoria:</label>
+                    <select class="form-control" id="scatg" name="scat">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+            </div> <!--col3-->
+            <div class="col">
+                <div class="form-group">
+                    <label for="repsenha">Selecione o item:</label>
+                    <select class="form-control" id="items" name="item">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+            </div> <!--col4-->
+        </div> <!--row 2-->
             <div class="form-group">
                 <label for="descricao">Faça uma breve descrição da sua solicitação:</label>
                 <textarea class="form-control" rows="5" id="descr" name="descricao"></textarea>
             </div>
             <button type="button" class="btn btn-success">Enviar</button>
-        
         </form>
-    </div>
+    </div> <!--dpc-->
 </body>
 </html>
