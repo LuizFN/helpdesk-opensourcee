@@ -51,7 +51,7 @@
         <div class="col">
             <img src="Midia/img/ptb.png" id="logo">
             <div id="p1"><p>Seja Bem-Vindo(a) ao Help Desk!</p></div>
-            <div id="lrs"><a href="">Recuperar minha senha</a></div>
+            <div id="lrs"><a href="Frontend/recuperarSenha.php">Recuperar minha senha</a></div>
         </div>
     <div class="col">
         <form action="Backend/validar_login.php" method="POST">

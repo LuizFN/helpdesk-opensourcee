@@ -37,8 +37,6 @@
             <div class="form-group">
                 <label for="mat">Número Matricula:</label>
                 <input type="text" class="form-control" placeholder="Matricula" name="mat" id="matr" required>
-                <div class="valid-feedback">Valid.</div>
-                <div class="invalid-feedback">Please fill out this field.</div>
             </div>
             <div class="form-group">
                 <label for="email">Endereço de E-mail:</label>
