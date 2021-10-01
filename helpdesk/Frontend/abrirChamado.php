@@ -54,7 +54,7 @@
         </div> <!--col1-->
         <div class="col">
             <div class="form-group">
-                <label for="repsenha">Selecione a Categoria:</label>
+                <label for="categoria">Selecione a Categoria:</label>
                 <select class="form-control" id="catg" name="cat">
                     <option>Nenhum</option>
                     <option>1</option>

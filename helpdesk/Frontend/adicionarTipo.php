@@ -15,13 +15,13 @@
             background-color: white;
             border-radius: 15px;
             padding: 20px;
-            width: 700px;
+            width: 500px;
             height: 350px;
             margin-top: 120px;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
         }
         #form1 {
-            width:450px;
+            width:400px;
         }
         input {
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
@@ -34,23 +34,11 @@
         <div id="form1">
         <form action="Backend/validar_login.php" method="POST">
         <h2>Cadastrar Novo Tipo</h2>
-    <div class="row">
-        <div class="col">
-
-        </div> <!--col1-->
-        <div class="col">
-
-        </div> <!--col2-->
-        </div> <!--row 1-->
-        <div class="row">
-            <div class="col">
-
-            </div> <!--col3-->
-            <div class="col">
-
-            </div> <!--col4-->
-        </div> <!--row 2-->
-            <button type="button" class="btn btn-success">Enviar</button>
+            <div class="form-group">
+                <label for="ntipo">Digite o Novo Tipo</label>
+                <input type="text" class="form-control" placeholder="Novo Tipo:" name="novot" id="nt" required>
+            </div>
+            <button type="button" class="btn btn-success">Guardar</button>
         </form>
     </div> <!--form1-->
     </div> <!--dpc-->
