@@ -15,13 +15,14 @@
             background-color: white;
             border-radius: 15px;
             padding: 20px;
-            width: 700px;
+            width: 900px;
             height: 560px;
-            margin-top: 180px;
-            margin-left: 425px;
+            margin-top: 120px;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
         }
-
+        #form1 {
+            width:800px;
+        }
         select {
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
         }
@@ -34,14 +35,17 @@
     </style>
 </head>
 <body>
+    <main class="row justify-content-center align-items-center">
     <div class="row justify-content-center align-items-center" id="dpc">
+        <div id="form1">
         <form action="Backend/validar_login.php" method="POST">
         <h2>Abrir Novo Chamado</h2>
     <div class="row">
         <div class="col">
             <div class="form-group">
                 <label for="tipodemanda">Selrcione o Tipo de Demanda</label>
-                <select class="form-control" id="tipod" name="tipo">
+                <select class="form-control" placeholder="Tipo" id="tipod" name="tipo">
+                    <option>Nenhum</option>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -52,6 +56,7 @@
             <div class="form-group">
                 <label for="repsenha">Selecione a Categoria:</label>
                 <select class="form-control" id="catg" name="cat">
+                    <option>Nenhum</option>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -62,8 +67,9 @@
         <div class="row">
             <div class="col">
                 <div class="form-group">
-                    <label for="repsenha">Selecione a SubCategoria:</label>
+                    <label for="subcat">Selecione a SubCategoria:</label>
                     <select class="form-control" id="scatg" name="scat">
+                        <option>Nenhum</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -72,8 +78,9 @@
             </div> <!--col3-->
             <div class="col">
                 <div class="form-group">
-                    <label for="repsenha">Selecione o item:</label>
+                    <label for="item">Selecione o Item:</label>
                     <select class="form-control" id="items" name="item">
+                        <option>Nenhum</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -83,10 +90,12 @@
         </div> <!--row 2-->
             <div class="form-group">
                 <label for="descricao">Faça uma breve descrição da sua solicitação:</label>
-                <textarea class="form-control" rows="5" id="descr" name="descricao"></textarea>
+                <textarea class="form-control" rows="5" placeholder="Descrição:" id="descr" name="descricao"></textarea>
             </div>
             <button type="button" class="btn btn-success">Enviar</button>
         </form>
+    </div> <!--form1-->
     </div> <!--dpc-->
+    </main>
 </body>
 </html>
