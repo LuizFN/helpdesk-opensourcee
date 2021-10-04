@@ -26,6 +26,12 @@
         input {
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
         }
+        select {
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
+        }
+        option {
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
+        }
     </style>
 </head>
 <body>
@@ -38,6 +44,17 @@
                 <label for="ntipo">Digite o Novo Tipo</label>
                 <input type="text" class="form-control" placeholder="Novo Tipo:" name="novot" id="nt" required>
             </div>
+            <p>Ativo: </p>
+            <div class="form-check-inline">  
+                <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Sim
+            </label>
+            </div>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Não
+            </label>
+            </div><br><br>
             <button type="button" class="btn btn-success">Guardar</button>
         </form>
     </div> <!--form1-->
