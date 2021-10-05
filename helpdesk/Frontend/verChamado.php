@@ -52,7 +52,7 @@
                     <p>Data e Hora abertura</p>
                     <p>Data prazo</p>
                     <p>Alterar Prioridade</p>
-                    <p>Selecionar Status</p><br><br><br><br>
+                    <p>Selecionar Status</p><br><br><br>
                     <div>Descrição Analista</div>
                 </div>
             </div> <!--row-->
