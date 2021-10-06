@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ver Chamado</title>
+    <title>Ver Chamado Usuario</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
         body {
@@ -21,7 +21,7 @@
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
         }
         #bt {
-            margin-top: 220px;
+            margin-top: 260px;
         }
     </style>
 </head>
@@ -42,7 +42,7 @@
                         </div> <!--row-->
                     </div>
                     <div id="usuario">
-                        Aqui ficara as informações do Usuário
+                        Aqui ficara as informações do Analista Respossável
                     </div><br><br><br><br>
                     <div id="descricao">
                         Aqui ficara a descrição do Usuário
@@ -50,13 +50,13 @@
                 </div> <!--col-->
                 <div class="col">
                     <p>Data e Hora abertura</p>
-                    <p>Data prazo</p>
-                    <p>Alterar Prioridade</p>
-                    <p>Selecionar Status</p><br><br><br>
-                    <div>Descrição Analista</div>
+                    <p>Data prazo</p><br><br><br><br><br>
+                    <p>Resposta Analista</p>
                 </div>
             </div> <!--row-->
-            <div id="bt"><button type="button" class="btn btn-success">Salvar Alterações</button></div>
+            <div class="row" id="bt">
+                <button type="button" class="btn btn-danger">Cancelar Solicitação</button>
+            </div>
         </div> <!--dpc-->
     </main>
 </body>
