@@ -7,6 +7,6 @@
     <title>home</title>
 </head>
 <body>
-    <h1>Bem vinfo</h1>
+    
 </body>
 </html>
