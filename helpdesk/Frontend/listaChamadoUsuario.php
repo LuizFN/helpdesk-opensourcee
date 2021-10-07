@@ -8,15 +8,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
         body {
-            background-color: #6A5ACD;
+            background-color: rgb(114, 216, 207);
         }
         #dpc {
             background-color: white;
-            border-radius: 15px;
             padding: 20px;
-            width: 1200px;
-            height: 1000px;
-            margin-top: 120px;
+            width: 1400px;
+            height: 500px;
+            margin-top: 40px;
             margin-bottom: 200px;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
         }
@@ -28,9 +27,17 @@
             height: 400px;
             overflow: auto;
         }
+        #bemv {
+            margin-top: 40px;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 25px;
+            font-family: serif;
+        }
     </style>
 </head>
 <body>
+    <div id="bemv"><p>Olá, nomeUsuario</p></div>
     <main class="row justify-content-center align-items-center">
         <div id="dpc">
             <div id="filanalista">

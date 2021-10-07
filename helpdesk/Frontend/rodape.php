@@ -15,9 +15,6 @@
         <div id="logo">
         <img src="../Midia/img/ptb.png">
         </div>
-        <div class="row" id="social">
-            
-        </div>
     </div> <!--col-->
         <div id="coppy">
           <p>@ 2021 coppyright - Prefeitura Municipal de Telêmaco Borba</p>

@@ -9,7 +9,7 @@
 
     <style>
         body {
-            background-color: #6A5ACD;
+            background-color: rgb(114, 216, 207);
         }
         #dpc {
             background-color: white;
