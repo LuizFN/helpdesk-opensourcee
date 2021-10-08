@@ -22,10 +22,10 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <ul class="navbar-nav">
-        <li class="nav-item active" id="sizefont">
+        <li class="nav-item" id="sizefont">
         <a class="nav-link" href="homeUsuario.php">Meus Chamados</a>
         </li>
-        <li class="nav-item" id="sizefont">
+        <li class="nav-item active" id="sizefont">
         <a class="nav-link" href="homePesquisarChamado.php">Pesquisar Chamados</a>
         </li>
         <li class="nav-item" id="sizefont">
@@ -39,6 +39,6 @@
         </li>
     </ul>
     </nav>
-    <?php include 'listaChamadoUsuario.php' ?>
+    <?php include 'pesquisarChamado.php' ?>
 </body>
 </html>

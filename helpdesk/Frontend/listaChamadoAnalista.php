@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
         body {
-            background-color: #6A5ACD;
+            background-color: rgb(114, 216, 207);
         }
         #dpc {
             background-color: white;
-            border-radius: 15px;
             padding: 20px;
             width: 1200px;
             height: 1000px;
