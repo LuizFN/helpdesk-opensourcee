@@ -23,13 +23,13 @@
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <ul class="navbar-nav">
         <li class="nav-item" id="sizefont">
-        <a class="nav-link" href="homeUsuario.php">Meus Chamados</a>
-        </li>
-        <li class="nav-item active" id="sizefont">
-        <a class="nav-link" href="homePesquisarChamado.php">Pesquisar Chamados</a>
+        <a class="nav-link" href="gerenciarSistemaChamado.php">Gerenciar Sistema de Chamados</a>
         </li>
         <li class="nav-item" id="sizefont">
-        <a class="nav-link" href="homeAbrirChamado.php">Abrir Chamado</a>
+        <a class="nav-link active" href="gerenciarUsuarios.php">Gerenciar Usuários</a>
+        </li>
+        <li class="nav-item" id="sizefont">
+        <a class="nav-link" href="gerenciarSistema">Gerenciar cadastro Demandas</a>
         </li>
         <li class="nav-item" id="btconfg">
             <button type="button" class="btn btn-primary">Configurações</button>
@@ -39,6 +39,6 @@
         </li>
     </ul>
     </nav>
-    <?php include 'pesquisarChamado.php' ?>
+
 </body>
 </html>

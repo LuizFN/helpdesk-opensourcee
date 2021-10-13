@@ -10,6 +10,16 @@
         body {
             background-color: rgb(114, 216, 207);
         }
+        #btsair {
+            margin-left: 5px;
+        }
+        #btconfg {
+            margin-left: 700px;
+        }
+        #sizefont {
+            font-size: 15px;
+            width: 200px;
+        }
         #dpc {
             background-color: white;
             padding: 20px;
@@ -17,7 +27,6 @@
             height: 1000px;
             margin-top: 120px;
             margin-bottom: 200px;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
         }
         #filanalista {
             height: 400px;
@@ -34,6 +43,25 @@
     </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar-nav">
+        <li class="nav-item active" id="sizefont">
+        <a class="nav-link" href="listaChamadoAnalista.php">Chamados</a>
+        </li>
+        <li class="nav-item" id="sizefont">
+        <a class="nav-link" href="pesquisarChamadoAnalista.php">Pesquisar Chamado</a>
+        </li>
+        <li class="nav-item" id="sizefont">
+        <a class="nav-link" href="#">Gerar Relatório</a>
+        </li>
+        <li class="nav-item" id="btconfg">
+            <button type="button" class="btn btn-primary">Configurações</button>
+        </li>
+        <li class="nav-item" id="btsair">
+            <button type="button" class="btn btn-danger">Sair</button>
+        </li>
+    </ul>
+    </nav>
     <main class="row justify-content-center align-items-center">
         <div id="dpc">
             <div id="titulo"><h3>MINHA FILA</h3></div>

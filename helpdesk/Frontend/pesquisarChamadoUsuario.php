@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>home</title>
     <style>
         #btsair {
@@ -22,14 +21,14 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <ul class="navbar-nav">
+        <li class="nav-item" id="sizefont">
+        <a class="nav-link" href="listaChamadoUsuario.php">Meus Chamados</a>
+        </li>
+        <li class="nav-item" id="sizefont">
+        <a class="nav-link" href="abrirChamado.php">Abrir Chamado</a>
+        </li>
         <li class="nav-item active" id="sizefont">
-        <a class="nav-link" href="homeAdm.php">Gerenciar Sistema de Chamados</a>
-        </li>
-        <li class="nav-item" id="sizefont">
-        <a class="nav-link" href="homePesquisarChamadoAnalista.php">Gerenciar Usuários</a>
-        </li>
-        <li class="nav-item" id="sizefont">
-        <a class="nav-link" href="#">Gerenciar cadastro Demandas</a>
+        <a class="nav-link" href="pesquisarChamado.php">Pesquisar Chamados</a>
         </li>
         <li class="nav-item" id="btconfg">
             <button type="button" class="btn btn-primary">Configurações</button>
@@ -39,6 +38,6 @@
         </li>
     </ul>
     </nav>
-    <?php include 'gerenciarSistemaChamado.php' ?>
+    <?php include 'pesquisarChamado.php' ?>
 </body>
 </html>

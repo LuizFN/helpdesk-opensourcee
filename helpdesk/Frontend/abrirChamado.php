@@ -11,6 +11,16 @@
         body {
             background-color: rgb(114, 216, 207);
         }
+        #btsair {
+            margin-left: 5px;
+        }
+        #btconfg {
+            margin-left: 700px;
+        }
+        #sizefont {
+            font-size: 15px;
+            width: 200px;
+        }
         #dpc {
             background-color: white;
             border-radius: 15px;
@@ -35,6 +45,25 @@
     </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar-nav">
+        <li class="nav-item" id="sizefont">
+        <a class="nav-link" href="listaChamadoUsuario.php">Meus Chamados</a>
+        </li>
+        <li class="nav-item active" id="sizefont">
+        <a class="nav-link" href="abrirChamado.php">Abrir Chamado</a>
+        </li>
+        <li class="nav-item" id="sizefont">
+        <a class="nav-link" href="pesquisarChamadoUsuario.php">Pesquisar Chamados</a>
+        </li>
+        <li class="nav-item" id="btconfg">
+            <button type="button" class="btn btn-primary">Configurações</button>
+        </li>
+        <li class="nav-item" id="btsair">
+            <button type="button" class="btn btn-danger">Sair</button>
+        </li>
+    </ul>
+    </nav>
     <main class="row justify-content-center align-items-center">
     <div class="row justify-content-center align-items-center" id="dpc">
         <div id="form1">

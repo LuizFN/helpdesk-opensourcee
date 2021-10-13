@@ -9,16 +9,24 @@
 
     <style>
         body {
-            background-color: #6A5ACD;
+            background-color: rgb(114, 216, 207);
+        }
+        #btsair {
+            margin-left: 5px;
+        }
+        #btconfg {
+            margin-left: 700px;
+        }
+        #sizefont {
+            font-size: 15px;
+            width: 200px;
         }
         #dpc {
             background-color: white;
-            border-radius: 15px;
             padding: 20px;
             width: 500px;
             height: 350px;
             margin-top: 120px;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
         }
         #form1 {
             width:400px;
@@ -35,6 +43,25 @@
     </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar-nav">
+        <li class="nav-item" id="sizefont">
+        <a class="nav-link" href="gerenciarSistemaChamado.php">Gerenciar Sistema de Chamados</a>
+        </li>
+        <li class="nav-item" id="sizefont">
+        <a class="nav-link" href="gerenciarUsuarios.php">Gerenciar Usuários</a>
+        </li>
+        <li class="nav-item" id="sizefont">
+        <a class="nav-link active" href="gerenciarSistema">Gerenciar cadastro Demandas</a>
+        </li>
+        <li class="nav-item" id="btconfg">
+            <button type="button" class="btn btn-primary">Configurações</button>
+        </li>
+        <li class="nav-item" id="btsair">
+            <button type="button" class="btn btn-danger">Sair</button>
+        </li>
+    </ul>
+    </nav>
     <main class="row justify-content-center align-items-center">
     <div class="row justify-content-center align-items-center" id="dpc">
         <div id="d1">
