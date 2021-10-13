@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>home</title>
     <style>
+        body {
+            background-color: rgb(114, 216, 207);
+        }
         #btsair {
             margin-left: 5px;
         }
@@ -16,6 +19,19 @@
         #sizefont {
             font-size: 15px;
             width: 200px;
+        }
+        #dpc {
+            background-color: white;
+            padding: 20px;
+            width: 1400px;
+            height: 500px;
+            margin-top: 40px;
+            margin-bottom: 200px;
+            border-style: solid;
+        }
+        #listaUsuarios {
+            height: 400px;
+            overflow: auto;
         }
     </style>
 </head>
@@ -39,6 +55,48 @@
         </li>
     </ul>
     </nav>
+    <main class="row justify-content-center align-items-center">
+        <div id="dpc">
+            <div id="listaUsuarios">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Matricula</th>
+                            <th>Nome Usuário</th>
+                            <th>E-mail</th>
+                            <th>Telefone</th>
+                            <th>Departamento</th>
+                            <th>Nivel de Acesso</th>
+                            <th>Status no Sistema</th>
+                             <th>Ação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Exemplo</td>
+                            <td>Exemplo</td>
+                            <td>Exemplo@exemplo.com</td>
+                            <td>Exemplo</td>
+                            <td>Exemplo</td>
+                            <td>Exemplo</td>
+                            <td>Exemplo</td>
+                            <td><a href="verUsuario.php">Ver</a></td>
+                        </tr>
+                        <tr>
+                            <td>Exemplo</td>
+                            <td>Exemplo</td>
+                            <td>Exemplo@exemplo.com</td>
+                            <td>Exemplo</td>
+                            <td>Exemplo</td>
+                            <td>Exemplo</td>
+                            <td>Exemplo</td>
+                            <td><a href="verUsuario.php">Ver</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div> <!--listaUsuarios-->
+        </div> <!--dpc-->
 
+    </main> 
 </body>
 </html>

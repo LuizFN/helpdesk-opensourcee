@@ -12,13 +12,12 @@
         }
         #dpc {
             background-color: white;
-            border-radius: 15px;
             padding: 20px;
             width: 1200px;
             height: 600px;
             margin-top: 120px;
             margin-bottom: 200px;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+            border-style: solid;
         }
         #bt {
             margin-top: 260px;

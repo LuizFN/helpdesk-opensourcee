@@ -9,17 +9,16 @@
 
     <style>
         body {
-            background-color: #6A5ACD;
+            background-color: rgb(114, 216, 207);
         }
         #dpc {
             background-color: white;
-            border-radius: 15px;
             padding: 20px;
             width: 300px;
             height: 325px;
             margin-top: 180px;
             margin-left: 620px;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+            border-style: solid;
         }
         input {
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);

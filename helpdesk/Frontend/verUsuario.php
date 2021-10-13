@@ -56,15 +56,34 @@
                 <label for="departamento">Departamento:</label>
                 <input type="text" class="form-control" placeholder="Seu Departamento:" name="departamento" id="dept" required>
             </div>
-            <div class="form-group">
-                <label for="senha">Senha:</label>
-                <input type="text" class="form-control" placeholder="Digite su senha:" name="senha" id="pass" required>
+            <p>Nivel de Acesso:</p>
+            <div class="form-check-inline">  
+                <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="user">Usuário
+            </label>
             </div>
-            <div class="form-group">
-                <label for="confsenha">Confirmar Senha:</label>
-                <input type="text" class="form-control" placeholder="Confirme sua senha:" name="csenha" id="cpass" required>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="analista">Analista
+            </label>
             </div>
-            <button type="button" class="btn btn-success">Finalizar Cadastro</button><br>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="adm">Administrador
+            </label>
+            </div><br><br>
+            <p>Ativo: </p>
+            <div class="form-check-inline">  
+                <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="ativo">Sim
+            </label>
+            </div>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="nativo">Não
+            </label>
+            </div><br><br>
+            <button type="button" class="btn btn-success">Guardar</button><br>
         </form>
     </div>
 </body>

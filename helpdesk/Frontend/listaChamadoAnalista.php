@@ -27,6 +27,7 @@
             height: 1000px;
             margin-top: 120px;
             margin-bottom: 200px;
+            border-style: solid;
         }
         #filanalista {
             height: 400px;

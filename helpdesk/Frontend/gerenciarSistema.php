@@ -27,6 +27,7 @@
             width: 500px;
             height: 350px;
             margin-top: 120px;
+            border-style: solid;
         }
         #form1 {
             width:400px;
@@ -71,8 +72,6 @@
         <p><a href="adicionarItem.php">Adicionar Novo Item</a></p>
         <p><a href="adicionarTipoAtendimento.php">Adicionar Novo Tipo Atendimento</a></p>
         <p><a href="adicionarStatus.php">Adicionar Novo Status</a></p>
-        <p><a href="gerenciarUsuarios.php">Gerenciar Usuários</a></p>
-        <p><a href="gerenciarSistema.php">Gerenciar Sistema de Chamados</a></p>
     </div> <!--d1-->
     </div> <!--dpc-->
     </main>

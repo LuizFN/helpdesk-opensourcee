@@ -27,7 +27,7 @@
             height: 500px;
             margin-top: 40px;
             margin-bottom: 200px;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+            border-style: solid;
         }
         #filanalista {
             height: 400px;

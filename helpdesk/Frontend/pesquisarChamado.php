@@ -13,12 +13,11 @@
         }
         #dpc {
             background-color: white;
-            border-radius: 15px;
             padding: 20px;
             width: 500px;
             height: 450px;
             margin-top: 120px;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+            border-style: solid;
         }
         #form1 {
             width:400px;
