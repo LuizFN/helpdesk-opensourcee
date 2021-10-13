@@ -74,12 +74,15 @@
                     <thead>
                         <tr>
                             <th>Chamado</th>
-                            <th>Analista Respossável</th>
-                            <th>Tipo>Categoria>SubCategoria>Item</th>
+                            <th>Tipo</th>
+                            <th>Categoria</th>
+                            <th>Sub Categoria</th>
+                            <th>Item</th>
                             <th>Descrição</th>
-                            <th>Status</th>
                             <th>Data Inicio</th>
-                            <th>Data Fim</th>
+                            <th>Data Prazo</th>
+                            <th>Analista Respossável</th>
+                            <th>Status</th>
                              <th>Ação</th>
                         </tr>
                     </thead>
@@ -87,7 +90,10 @@
                         <tr>
                             <td>Exemplo</td>
                             <td>Exemplo</td>
-                            <td>Tipo>Categoria>SubCategoria>Item</td>
+                            <td>Exemplo</td>
+                            <td>Exemplo</td>
+                            <td>Exemplo</td>
+                            <td>Exemplo</td>
                             <td>Exemplo</td>
                             <td>Exemplo</td>
                             <td>Exemplo</td>
@@ -97,7 +103,10 @@
                         <tr>
                             <td>Exemplo</td>
                             <td>Exemplo</td>
-                            <td>Tipo>Categoria>SubCategoria>Item</td>
+                            <td>Exemplo</td>
+                            <td>Exemplo</td>
+                            <td>Exemplo</td>
+                            <td>Exemplo</td>
                             <td>Exemplo</td>
                             <td>Exemplo</td>
                             <td>Exemplo</td>
