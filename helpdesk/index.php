@@ -4,43 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style>
-        body {
-            background-color: rgb(114, 216, 207);
-        }
-        #dlcad {
-            margin-top: 20px;
-            margin-left: 190px;
-        }
-        #lrs {
-            margin-top: 95px;
-        }
-        #p1 {
-            margin-top: 40px;
-            text-align: center;
-            font-weight: bolder;
-            font-size: 25px;
-            font-family: serif;
-        }
-        #logo {
-            display: inline-block;
-            height: 100px;
-            width: 400px;
-        }
-        #dpc {
-            background-color: white;
-            padding: 20px;
-            width: 750px;
-            height: 325px;
-            margin-top: 200px;
-            margin-left: 370px;
-            border-style: solid;
-        }
-        input {
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
-        }
-    </style>
+    <link rel="stylesheet" href="Frontend/Bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="Frontend/CSS/login.css">
     <title>Login</title>
 </head>
 <body>

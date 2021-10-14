@@ -5,18 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
-    <style>
-        #btsair {
-            margin-left: 5px;
-        }
-        #btconfg {
-            margin-left: 700px;
-        }
-        #sizefont {
-            font-size: 15px;
-            width: 200px;
-        }
-    </style>
+    <link rel="stylesheet" href="Bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="CSS/pesquisarChamado.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">

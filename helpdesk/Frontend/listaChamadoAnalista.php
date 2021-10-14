@@ -5,43 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style>
-        body {
-            background-color: rgb(114, 216, 207);
-        }
-        #btsair {
-            margin-left: 5px;
-        }
-        #btconfg {
-            margin-left: 700px;
-        }
-        #sizefont {
-            font-size: 15px;
-            width: 200px;
-        }
-        #dpc {
-            background-color: white;
-            padding: 20px;
-            width: 1200px;
-            height: 1000px;
-            margin-top: 120px;
-            margin-bottom: 200px;
-            border-style: solid;
-        }
-        #filanalista {
-            height: 400px;
-            overflow: auto;
-        }
-        #filageral {
-            height: 400px;
-            overflow: auto;
-        }
-        #titulo {
-            text-align: center;
-            border-style: solid;
-        }
-    </style>
+    <link rel="stylesheet" href="Bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="CSS/listaChamadoAnalista.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">

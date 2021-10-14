@@ -5,33 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adicionar Status Demanda</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <style>
-        body {
-            background-color: rgb(114, 216, 207);
-        }
-        #dpc {
-            background-color: white;
-            padding: 20px;
-            width: 500px;
-            height: 250px;
-            margin-top: 120px;
-            border-style: solid; 
-        }
-        #form1 {
-            width:400px;
-        }
-        input {
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
-        }
-        select {
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
-        }
-        option {
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
-        }
-    </style>
+    <link rel="stylesheet" href="Bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="CSS/adicionarStatus.css">
 </head>
 <body>
     <main class="row justify-content-center align-items-center">

@@ -5,46 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista Chamado Usuário</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style>
-        body {
-            background-color: rgb(114, 216, 207);
-        }
-        #btsair {
-            margin-left: 5px;
-        }
-        #btconfg {
-            margin-left: 700px;
-        }
-        #sizefont {
-            font-size: 15px;
-            width: 200px;
-        }
-        #dpc {
-            background-color: white;
-            padding: 20px;
-            width: 1400px;
-            height: 500px;
-            margin-top: 40px;
-            margin-bottom: 200px;
-            border-style: solid;
-        }
-        #filanalista {
-            height: 400px;
-            overflow: auto;
-        }
-        #filageral {
-            height: 400px;
-            overflow: auto;
-        }
-        #bemv {
-            margin-top: 40px;
-            text-align: center;
-            font-weight: bolder;
-            font-size: 25px;
-            font-family: serif;
-        }
-    </style>
+    <link rel="stylesheet" href="Bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="CSS/listaChamadoUsuario.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -69,7 +31,7 @@
     <div id="bemv"><p>Olá, nomeUsuario</p></div>
     <main class="row justify-content-center align-items-center">
         <div id="dpc">
-            <div id="filanalista">
+            <div id="listaUsuario">
                 <table class="table table-bordered">
                     <thead>
                         <tr>
@@ -117,7 +79,6 @@
                 </table>
             </div> <!--filanalista-->
         </div> <!--dpc-->
-
     </main> 
 </body>
 </html>
