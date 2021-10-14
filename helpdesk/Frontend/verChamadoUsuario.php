@@ -6,23 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ver Chamado Usuario</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style>
-        body {
-            background-color: rgb(114, 216, 207);
-        }
-        #dpc {
-            background-color: white;
-            padding: 20px;
-            width: 1200px;
-            height: 600px;
-            margin-top: 120px;
-            margin-bottom: 200px;
-            border-style: solid;
-        }
-        #bt {
-            margin-top: 260px;
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/verChamadoUsuario.css">
 </head>
 <body>
     <main class="row justify-content-center align-items-center">

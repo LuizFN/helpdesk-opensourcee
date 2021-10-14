@@ -6,42 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adicionar Tipo Demanda</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <style>
-        body {
-            background-color: rgb(114, 216, 207);
-        }
-        #btsair {
-            margin-left: 5px;
-        }
-        #btconfg {
-            margin-left: 700px;
-        }
-        #sizefont {
-            font-size: 15px;
-            width: 200px;
-        }
-        #dpc {
-            background-color: white;
-            padding: 20px;
-            width: 500px;
-            height: 350px;
-            margin-top: 120px;
-            border-style: solid;
-        }
-        #form1 {
-            width:400px;
-        }
-        input {
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
-        }
-        select {
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
-        }
-        option {
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/gerenciarSistema.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">

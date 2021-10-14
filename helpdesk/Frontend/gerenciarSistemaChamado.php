@@ -6,72 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista Chamado Usuário</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style>
-        body {
-            background-color: rgb(114, 216, 207);
-        }
-        #btsair {
-            margin-left: 5px;
-        }
-        #btconfg {
-            margin-left: 700px;
-        }
-        #sizefont {
-            font-size: 15px;
-            width: 200px;
-        }
-        #dpc1 {
-            background-color: white;
-            padding: 20px;
-            width: 1400px;
-            height: 500px;
-            margin-top: 40px;
-            border-top-style: solid;
-            border-left-style: solid;
-            border-right-style: solid;
-        }
-        #dpc2 {
-            background-color: white;
-            padding: 20px;
-            width: 1400px;
-            height: 500px;
-            border-left-style: solid;
-            border-right-style: solid;
-        }
-        #dpc3 {
-            background-color: white;
-            padding: 20px;
-            width: 1400px;
-            height: 500px;
-            margin-bottom: 200px;
-            border-left-style: solid;
-            border-right-style: solid;
-            border-bottom-style: solid;
-        }
-        #tipodemanda {
-            height: 400px;
-            overflow: auto;
-        }
-        #status {
-            height: 400px;
-            overflow: auto;
-        }
-        #tipoatendimento {
-            height: 400px;
-            overflow: auto;
-        }
-        #bemv {
-            margin-top: 40px;
-            text-align: center;
-            font-weight: bolder;
-            font-size: 25px;
-            font-family: serif;
-        }
-        #titulo {
-            text-align: center;
-            border-style: solid;
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/gerenciarSistemaChamado.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">

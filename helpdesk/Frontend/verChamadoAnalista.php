@@ -6,24 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ver Chamado</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style>
-        body {
-            background-color: rgb(114, 216, 207);
-        }
-        #dpc {
-            background-color: white;
-            border-radius: 15px;
-            padding: 20px;
-            width: 1300px;
-            height: 650px;
-            margin-top: 120px;
-            margin-bottom: 200px;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
-        }
-        #bt {
-            margin-top: 260px;
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/verChamadoAnalista.css">
 </head>
 <body>
     <main class="row justify-content-center align-items-center">

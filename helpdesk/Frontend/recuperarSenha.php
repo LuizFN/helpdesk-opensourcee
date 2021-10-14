@@ -6,24 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recuperar Senha</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <style>
-        body {
-            background-color: rgb(114, 216, 207);
-        }
-        #dpc {
-            background-color: white;
-            padding: 20px;
-            width: 300px;
-            height: 325px;
-            margin-top: 180px;
-            margin-left: 620px;
-            border-style: solid;
-        }
-        input {
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/recuperarSenha.css">
 </head>
 <body>
     <div class="row justify-content-center align-items-center" id="dpc">
