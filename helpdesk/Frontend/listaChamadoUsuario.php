@@ -24,7 +24,7 @@
             <button type="button" class="btn btn-primary">Configurações</button>
         </li>
         <li class="nav-item" id="btsair">
-            <button type="button" class="btn btn-danger">Sair</button>
+            <a href="../Backend/logout.php"></a>
         </li>
     </ul>
     </nav>
