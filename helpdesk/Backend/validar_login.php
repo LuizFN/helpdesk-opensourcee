@@ -1,10 +1,8 @@
 <?php
-include_once 'classLogin.php'
+include_once 'conexao.php'
 
-$matricula = $_POST['mat'];
-$senha = $_POST['senha'];
-
-if (!empty($_POST) AND (empty($_POST['matricula']) OR empty($_POST['senha']))) {
-    header("Location: index.php"); exit;
+if(isset($_POST['mat']) && isset($_POST['senha']) && $conn != null) {
+    $query = $conn->prepare
 }
+
 ?>

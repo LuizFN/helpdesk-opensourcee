@@ -1,17 +1,14 @@
 <?php
-
-class conn {
-
-    try {
-    $hostname = “”;
-    $dbname = “”;
-    $username = “”;
+    $hostname = “127.0.0.1”;
+    $dbname = “db_teste”;
+    $username = “root”;
     $pw = “”;
 
-    $pdo = new PDO (“mssql:host=$hostname;dbname=$dbname ”,”$username ”,”$pw ”);
-    } catch (PDOException $e) {
-    echo “Erro de Conexão ” . $e->getMessage() . “\n”;
-    exit;
+    try {
+        $conn = new PDO("mysql:host=$hostname;dbname=$dbname", $username, $pw);
+        $conn->setAttribute(PDO::ATTR-ERRMODE, PDO::ERRMODE_EXCEPITION);  
+    } catch(PDOexception $erro) {
+        echo "Erro de conexão com o banco de dados: {$erro->getMessage()}";
+        $conn = null;
     }
-}   
 ?>
