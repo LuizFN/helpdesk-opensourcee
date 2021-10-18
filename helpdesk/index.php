@@ -28,7 +28,7 @@
                 <label for="senha">Senha:</label>
                 <input type="password" class="form-control" placeholder="Senha" name="senha" id="pwd">
             </div>
-            <button type="button" class="btn btn-success">Entrar</button><br>
+            <input type="submit" value="Entrar">
             <div id="dlcad"><a href="Frontend/cadastro.php">Cadastra-se</a></div>
         </form>
     </div> <!--form1-->
