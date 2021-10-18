@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -24,11 +25,11 @@
             <button type="button" class="btn btn-primary">Configurações</button>
         </li>
         <li class="nav-item" id="btsair">
-            <a href="../Backend/logout.php"></a>
+            <a href="../Backend/logout.php">Sair</a>
         </li>
     </ul>
     </nav>
-    <div id="bemv"><p>Olá, nomeUsuario</p></div>
+    <div id="bemv"></p></div>
     <main class="row justify-content-center align-items-center">
         <div id="dpc">
             <div id="listaUsuario">

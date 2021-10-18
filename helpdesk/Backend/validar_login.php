@@ -5,7 +5,7 @@ if(isset($_POST['mat']) && isset($_POST['senha']) && $conn != null) {
     $query = $conn->prepare("SELECT * FROM usuarios WHERE matricula = ? AND senha = ?");
     $query->execute(array($_POST['mat'], $_POST['senha']));
 
-    //Joga os daddos num array
+    //Joga os daddos do banco num array
     if($query->rowCount()) {
         $usuario = $query->fetchAll(PDO::FETCH_ASSOC)[0];
         //Inicia seção e recebe os valores num array
