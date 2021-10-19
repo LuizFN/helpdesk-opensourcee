@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="row justify-content-center align-items-center" id="dp">
-        <form action="Backend/validar_login.php" method="POST">
+        <form action="guardarCadastro.php" method="POST">
         <h2>Cadastro</h2>
         <div id="df1">
             <div class="form-group">
