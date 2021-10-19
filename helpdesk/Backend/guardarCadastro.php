@@ -9,9 +9,8 @@ $departamento = $_POST['departamento'];
 $senha = $_POST['senha'];
 
 if(isset($matricula) && isset($nome) && isset($email) && isset($telefone) && isset($departamento) && isset($senha)) {
-    $query = $conn->prepare();
+    $query = $conn->prepare("INSERT INTO usuarios (matricula, senha, nome, email, telefone, departamento) VALUES ($matricula, $senha, $nome, $email, $telefone, $departamento)");
     $query->execute();
 }
-
 
 ?>

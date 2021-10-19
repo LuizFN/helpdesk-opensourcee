@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="row justify-content-center align-items-center" id="dp">
-        <form action="guardarCadastro.php" method="POST">
+        <form action="../Backend/guardarCadastro.php" method="POST">
         <h2>Cadastro</h2>
         <div id="df1">
             <div class="form-group">
@@ -44,7 +44,7 @@
                 <label for="confsenha">Confirmar Senha:</label>
                 <input type="text" class="form-control" placeholder="Confirme sua senha:" name="csenha" id="cpass" required>
             </div>
-            <button type="button" class="btn btn-success">Finalizar Cadastro</button><br>
+            <input type="submit" value="Finalizar Cadastro">
         </form>
     </div>
 </body>
