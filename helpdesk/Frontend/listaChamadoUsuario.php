@@ -1,4 +1,12 @@
+<?php
+    session_start();
 
+    if(isset($_SESSION['usuario']) && is_array($_SESSION['usuario'])) {
+        $nome = $_SESSION['usuario'][2];
+    } else {
+        header("location: ../index.php");
+    }
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -29,7 +37,7 @@
         </li>
     </ul>
     </nav>
-    <div id="bemv"></p></div>
+    <div id="bemv">Olá, <?php echo "$nome" ?></p></div>
     <main class="row justify-content-center align-items-center">
         <div id="dpc">
             <div id="listaUsuario">

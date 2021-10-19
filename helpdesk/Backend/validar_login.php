@@ -10,7 +10,7 @@ if(isset($_POST['mat']) && isset($_POST['senha']) && $conn != null) {
         $usuario = $query->fetchAll(PDO::FETCH_ASSOC)[0];
         //Inicia seção e recebe os valores num array
         session_start();
-        $_SESSION['usuario'] = array($usuario['matricula'], $usuario['nivel']);
+        $_SESSION['usuario'] = array($usuario['matricula'], $usuario['nivel'], $usuario['nome']);
         header("location: acesso.php");
     } else {
         header("location: ../index.php");
@@ -18,5 +18,4 @@ if(isset($_POST['mat']) && isset($_POST['senha']) && $conn != null) {
 } else {
     header("location: ../index.php");
 }
-
 ?>

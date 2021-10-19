@@ -4,7 +4,6 @@
 
     if(isset($_SESSION['usuario']) && is_array($_SESSION['usuario'])) {
         $nivel = $_SESSION['usuario'][1];
-        $matricula = $_SESSION['usuario'][0];
     } else {
         header("location: ../index.php");
     }
