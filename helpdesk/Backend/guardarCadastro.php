@@ -1,16 +1,23 @@
 <?php
 include_once 'conexao.php';
 
-$matricula = $_POST['mat'];
-$nome = $_POST['nome'];
-$email = $_POST['email'];
-$telefone = $_POST['telefone'];
-$departamento = $_POST['departamento'];
-$senha = $_POST['senha'];
+if(isset($_POST['mat']) && isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['telefone']) && isset($_POST['departamento']) && isset($_POST['senha'])) {
 
-if(isset($matricula) && isset($nome) && isset($email) && isset($telefone) && isset($departamento) && isset($senha)) {
-    $query = $conn->prepare("INSERT INTO usuarios (matricula, senha, nome, email, telefone, departamento) VALUES ($matricula, $senha, $nome, $email, $telefone, $departamento)");
+    $matricula = $_POST['mat'];
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $telefone = $_POST['telefone'];
+    $departamento = $_POST['departamento'];
+    $senha = $_POST['senha'];
+
+    $query = $conn->prepare("INSERT INTO usuarios (matricula, senha, nome, email, telefone, departamento) VALUES (:matricula, :senha, :nome, :email, :telefone, :departamento)");
+    $query->bindValue(":matricula", $matricula);
+    $query->bindValue(":senha",$senha);
+    $query->bindValue(":nome",$nome);
+    $query->bindValue(":email",$email);
+    $query->bindValue(":telefone",$telefone);
+    $query->bindValue(":departamento",$departamento);
     $query->execute();
 }
-
+    header("location: ../index.php");
 ?>
